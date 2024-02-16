@@ -1,0 +1,24 @@
+﻿@model ToDo.Task.Model.AddTask
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container mt-5">
+    <div id="div_content"></div>
+
+</div>
+
+<form asp-controller="home"
+      asp-action="index"
+      method="post"
+      class="fixed-bottom bg-light p-3"
+      id="frmPostTask">
+    <div class="input-group">
+        <input type="hidden" asp-for="Id">
+        <input type="text" asp-for="Message" class="form-control" placeholder="Enter a task" required>
+        <div class="input-group-append">
+            <button class="btn btn-primary" type="submit">Add Task</button>
+        </div>
+    </div>
+</form>
+
