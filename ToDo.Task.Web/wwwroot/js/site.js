@@ -19,9 +19,9 @@ $("#frmPostTask").submit(function (e) {
         success: function (data) {
             resetFields();
             loadGrid();
+            $("#btnAddUpdate").text("Add Task");
         },
         error: function () {
-            alert('error handling here');
         }
     });
 });
@@ -53,6 +53,7 @@ function deleteTask(id) {
 function editTask(id, msg) {
     $("#Id").val(id);
     $("#Message").val(msg);
+    $("#btnAddUpdate").text("Update Task");
 }
 
 function markComplete(id) {

@@ -71,7 +71,7 @@ body {
 }
 
 body {
-    background-image: url('https://images.pexels.com/photos/634548/pexels-photo-634548.jpeg'); /* Specify the path to your image */
+    background-image: url('//i0.wp.com/picjumbo.com/wp-content/uploads/slice-of-watermelon-in-woman-hand-on-bright-yellow-background-free-photo.jpg?w=2210&quality=70'); /* Specify the path to your image */
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -90,7 +90,8 @@ body {
 
 header{
     position:fixed;
-    width:100%
+    width:100%;
+    z-index:9999;
 }
 .big-checkbox {
     width: 30px;

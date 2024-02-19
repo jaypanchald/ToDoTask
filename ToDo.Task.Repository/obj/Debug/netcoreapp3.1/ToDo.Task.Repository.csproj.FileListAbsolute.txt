@@ -1,0 +1,15 @@
+D:\Practice\ToDo.Task\ToDo.Task.Repository\bin\Debug\netcoreapp3.1\ToDo.Task.Repository.deps.json
+D:\Practice\ToDo.Task\ToDo.Task.Repository\bin\Debug\netcoreapp3.1\ToDo.Task.Repository.runtimeconfig.json
+D:\Practice\ToDo.Task\ToDo.Task.Repository\bin\Debug\netcoreapp3.1\ToDo.Task.Repository.runtimeconfig.dev.json
+D:\Practice\ToDo.Task\ToDo.Task.Repository\bin\Debug\netcoreapp3.1\ToDo.Task.Repository.dll
+D:\Practice\ToDo.Task\ToDo.Task.Repository\bin\Debug\netcoreapp3.1\ToDo.Task.Repository.pdb
+D:\Practice\ToDo.Task\ToDo.Task.Repository\bin\Debug\netcoreapp3.1\ToDo.Task.Model.dll
+D:\Practice\ToDo.Task\ToDo.Task.Repository\bin\Debug\netcoreapp3.1\ToDo.Task.Model.pdb
+D:\Practice\ToDo.Task\ToDo.Task.Repository\obj\Debug\netcoreapp3.1\ToDo.Task.Repository.csprojAssemblyReference.cache
+D:\Practice\ToDo.Task\ToDo.Task.Repository\obj\Debug\netcoreapp3.1\ToDo.Task.Repository.AssemblyInfoInputs.cache
+D:\Practice\ToDo.Task\ToDo.Task.Repository\obj\Debug\netcoreapp3.1\ToDo.Task.Repository.AssemblyInfo.cs
+D:\Practice\ToDo.Task\ToDo.Task.Repository\obj\Debug\netcoreapp3.1\ToDo.Task.Repository.csproj.CoreCompileInputs.cache
+D:\Practice\ToDo.Task\ToDo.Task.Repository\obj\Debug\netcoreapp3.1\ToDo.Task.Repository.csproj.CopyComplete
+D:\Practice\ToDo.Task\ToDo.Task.Repository\obj\Debug\netcoreapp3.1\ToDo.Task.Repository.dll
+D:\Practice\ToDo.Task\ToDo.Task.Repository\obj\Debug\netcoreapp3.1\ToDo.Task.Repository.pdb
+D:\Practice\ToDo.Task\ToDo.Task.Repository\obj\Debug\netcoreapp3.1\ToDo.Task.Repository.genruntimeconfig.cache

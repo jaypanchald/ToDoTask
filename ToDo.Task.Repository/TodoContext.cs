@@ -1,18 +1,22 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using ToDo.Task.Model.Entity;
+using Microsoft.Extensions.Options;
+using ToDo.Task.Model;
 
 namespace ToDo.Task.Repository
 {
     public class TodoContext : DbContext
     {
-        const string connectionString = "Server=(localdb)\\mssqllocaldb;Database=ToDoTask;Trusted_Connection=True;MultipleActiveResultSets=true";
+        private readonly IOptions<ConnectionStringOption> _conStrOptions;
+        private readonly string connectionString;
 
         public TodoContext() : base() { }
-        public TodoContext(DbContextOptions options) : base(options)
+        public TodoContext(IOptions<ConnectionStringOption> conStrOptions, DbContextOptions options) : base(options)
         {
+            _conStrOptions = conStrOptions;
+            connectionString = _conStrOptions.Value.ConnectionString;
         }
 
-        public DbSet<MyTask> MyTask { get; set; }
+        public DbSet<Model.Entity.MyTask> MyTask { get; set; }
 
 
 

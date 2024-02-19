@@ -10,6 +10,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ToDo.Task.Model;
 using ToDo.Task.Repository;
 using ToDo.Task.Repository.Repository;
 
@@ -34,11 +35,14 @@ namespace ToDo.Task.Web
                 options.EnableEndpointRouting = false;
             }).SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
 
-            services.AddDbContext<TodoContext>(opts =>
+            services.Configure<ConnectionStringOption>(options =>
             {
-                opts.UseSqlServer(Configuration["ConnectionString:DatingDb"]);
+                //ConnectionString
+                // set connection string from configuration  
+                options.ConnectionString = Configuration["ConnectionString:DatingDb"];
             });
-            services.AddTransient<IMyTaskRepository, MyTaskRepository>();
+            services.AddDbContext<TodoContext>();
+            services.AddScoped<IMyTaskRepository, MyTaskRepository>();
             //services.AddScoped<IRepository, ToDo.Task.Repository.Repository.Repository>();
         }
 
