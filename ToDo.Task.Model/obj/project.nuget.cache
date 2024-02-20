@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DQLlwgy6cn2qmP9UPoVKAzxlMlzN9ohn4JKPKuCTsZCCwzpPesMhZTYCSLKnf3LUUHJ2wlT3X8ynOoEEMdEfzQ==",
+  "dgSpecHash": "W3/S52FgMWtkZAVkhUkO7RckQMvId+FywmjTiL17WHbCjIVgnecrurEB/6fmUanf4jaH9j124DEQv/lp/pt83w==",
   "success": true,
-  "projectFilePath": "D:\\Practice\\ToDo.Task\\ToDo.Task.Model\\ToDo.Task.Model.csproj",
+  "projectFilePath": "D:\\Practice\\Github\\ToDoTask\\ToDo.Task.Model\\ToDo.Task.Model.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

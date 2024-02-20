@@ -5729,11 +5729,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Practice\\ToDo.Task\\ToDo.Task.Web\\ToDo.Task.Web.csproj",
+      "projectUniqueName": "D:\\Practice\\Github\\ToDoTask\\ToDo.Task.Web\\ToDo.Task.Web.csproj",
       "projectName": "ToDo.Task.Web",
-      "projectPath": "D:\\Practice\\ToDo.Task\\ToDo.Task.Web\\ToDo.Task.Web.csproj",
+      "projectPath": "D:\\Practice\\Github\\ToDoTask\\ToDo.Task.Web\\ToDo.Task.Web.csproj",
       "packagesPath": "C:\\Users\\jay.panchal\\.nuget\\packages\\",
-      "outputPath": "D:\\Practice\\ToDo.Task\\ToDo.Task.Web\\obj\\",
+      "outputPath": "D:\\Practice\\Github\\ToDoTask\\ToDo.Task.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -5756,11 +5756,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Practice\\ToDo.Task\\ToDo.Task.Model\\ToDo.Task.Model.csproj": {
-              "projectPath": "D:\\Practice\\ToDo.Task\\ToDo.Task.Model\\ToDo.Task.Model.csproj"
+            "D:\\Practice\\Github\\ToDoTask\\ToDo.Task.Model\\ToDo.Task.Model.csproj": {
+              "projectPath": "D:\\Practice\\Github\\ToDoTask\\ToDo.Task.Model\\ToDo.Task.Model.csproj"
             },
-            "D:\\Practice\\ToDo.Task\\ToDo.Task.Repository\\ToDo.Task.Repository.csproj": {
-              "projectPath": "D:\\Practice\\ToDo.Task\\ToDo.Task.Repository\\ToDo.Task.Repository.csproj"
+            "D:\\Practice\\Github\\ToDoTask\\ToDo.Task.Repository\\ToDo.Task.Repository.csproj": {
+              "projectPath": "D:\\Practice\\Github\\ToDoTask\\ToDo.Task.Repository\\ToDo.Task.Repository.csproj"
             }
           }
         }

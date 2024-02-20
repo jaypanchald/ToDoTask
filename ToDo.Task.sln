@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31313.79
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.Task.Web", "ToDo.Task.Web\ToDo.Task.Web.csproj", "{4EFB059B-EF67-44DD-A47D-F90234C09EE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDo.Task.Web", "ToDo.Task.Web\ToDo.Task.Web.csproj", "{4EFB059B-EF67-44DD-A47D-F90234C09EE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.Task.Model", "ToDo.Task.Model\ToDo.Task.Model.csproj", "{25C03433-CBD4-47B0-A429-E20CB2CA8580}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDo.Task.Model", "ToDo.Task.Model\ToDo.Task.Model.csproj", "{25C03433-CBD4-47B0-A429-E20CB2CA8580}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.Task.Repository", "ToDo.Task.Repository\ToDo.Task.Repository.csproj", "{4A84F3C8-6CA8-46C0-A8E0-35D117AD7DDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDo.Task.Repository", "ToDo.Task.Repository\ToDo.Task.Repository.csproj", "{4A84F3C8-6CA8-46C0-A8E0-35D117AD7DDF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Db", "Db", "{B9AEACBA-D922-4247-8A48-10E28A280EA8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
